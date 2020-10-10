@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/images/logo.svg';
 import { FaCalendarCheck } from 'react-icons/fa';
@@ -35,13 +36,15 @@ function Landing() {
                         <input type="password" name="" id="password"/>
                     </div>
                    
-                    <a href="#">Esqueci minha senha</a>
+                    <Link to="/forgot-passwod">Esqueci minha senha</Link>
                    <div className="submit-login">
                        <button 
                        
                        type="submit">Entrar</button>
                    </div>
-                   Não tem uma conta?<a href="#"> Registri-se</a>
+                   
+                   Não tem uma conta?<Link to="/createUser"> Registri-se</Link>
+                   
                 </form>
                 
             </div>

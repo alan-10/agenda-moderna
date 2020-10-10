@@ -2,8 +2,10 @@
     font-size: 60%;
 
     --color-background: #f0f0f7;
+
     --color-input-background: #f8f8fc;
     --color-page-background: #4448;
+    --color-page-background-in-more: rgba(51, 50, 50, 0.533);
     --color-line-in-primary:#ffffff ;
     --color-line-in-white: #e6e6f0;
     --color-button-background:#6C63FF;
@@ -46,4 +48,8 @@ textarea {
     :root {
         font-size:62.5% ;
     }
+}
+
+a:focus{
+    color: wheat;
 }
